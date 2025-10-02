@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPartnersFizzBuzz", "HealthPartnersFizzBuzz\HealthPartnersFizzBuzz.csproj", "{2ABF34B1-D277-4FF3-A391-9FD21FB9A0A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPartnersUnitTests", "HealthPartnersUnitTests\HealthPartnersUnitTests.csproj", "{A9E72968-24F9-4303-BE91-0F44929E6C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABF34B1-D277-4FF3-A391-9FD21FB9A0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABF34B1-D277-4FF3-A391-9FD21FB9A0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABF34B1-D277-4FF3-A391-9FD21FB9A0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABF34B1-D277-4FF3-A391-9FD21FB9A0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E72968-24F9-4303-BE91-0F44929E6C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E72968-24F9-4303-BE91-0F44929E6C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E72968-24F9-4303-BE91-0F44929E6C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E72968-24F9-4303-BE91-0F44929E6C26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
