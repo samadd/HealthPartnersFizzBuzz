@@ -1,16 +1,14 @@
 namespace HealthPartnersFizzBuzz;
 
-public class FizzBuzzTextPresenter: IFizzBuzzPresenter
+public class FizzBuzzTextPresenter(Action<string> action) : IFizzBuzzPresenter
 {
-    public FizzBuzzTextPresenter(Action<string> action)
-    {
-        throw new NotImplementedException();
-    }
-    
-    private readonly Action<string> _action;
-
     public void Present(object value)
     {
-        throw new NotImplementedException();
+        var presentValue = value?.ToString();
+        if (presentValue == null)
+        {
+            throw new ArgumentNullException("presentValue");
+        }
+        action.Invoke(presentValue);
     }
 }
