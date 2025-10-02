@@ -1,21 +1,21 @@
 namespace HealthPartnersFizzBuzz;
-using System;
 
 public class FizzBuzzConditions
 {
-   
+    private static readonly Func<int, Func<int, bool>> Factor = (factor) => (number) => number % factor == 0;
+
     public bool Fizz(int number)
     {
-        throw new NotImplementedException();
+        return Factor(3)(number);
     }
 
     public bool Buzz(int number)
     {
-        throw new NotImplementedException();
+        return Factor(5)(number);
     }
 
     public bool FizzBuzz(int number)
     {
-        throw new NotImplementedException();
+        return Fizz(number) && Buzz(number);
     }
 }
